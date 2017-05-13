@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Recursion
 {
-    public static class Recursion
+    public static class RecursionApi
     {
         public static T Call<T>(this Target<T> target, T arg) => target.ToTailCall()(arg);
         public static T Call<T>(this Target2<T> target, T arg1, T arg2) => target.ToTailCall()(arg1, arg2);
