@@ -5,15 +5,17 @@
     <PackageId>Recursion</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Qinsi Long</Authors>
-    <Description>Base on C#: A Method for Tail Call Recursion by StormySpike[https://www.codeproject.com/Articles/43234/C-A-Method-for-Tail-Call-Recursion]</Description>
+    <Description>Base on C#: A Method for Tail Call Recursion by StormySpike[https://www.codeproject.com/Articles/43234/C-A-Method-for-Tail-Call-Recursion].</Description>
+    <PackageProjectUrl>https://github.com/longqinsi/Recursion</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Qinsi Long. All rights reserved.</Copyright>
     <PackageTags>Tail Recursion Recursive Func Action</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ValueTuple" Version="4.3.1" />
+    <PackageReference Include="System.ValueTuple" Version="[4.3.1,)" />
   </ItemGroup>
 
 </Project>
