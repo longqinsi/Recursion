@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageId>Recursion</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Qinsi Long</Authors>
+    <Description>Base on C#: A Method for Tail Call Recursion by StormySpike[https://www.codeproject.com/Articles/43234/C-A-Method-for-Tail-Call-Recursion]</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) Qinsi Long. All rights reserved.</Copyright>
+    <PackageTags>Tail Recursion Recursive Func Action</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ValueTuple" Version="4.3.1" />
+  </ItemGroup>
 
 </Project>
